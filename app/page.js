@@ -7,6 +7,8 @@ export default function HomePage() {
       Page 1
       <br/>
       <Link href="/page2">Go to Page 2</Link>
+      <br/>
+      <Link href="/page3" prefetch={true}>Go to Page 2</Link>
     </>
   );
 }
